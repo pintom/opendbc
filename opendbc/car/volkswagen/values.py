@@ -324,6 +324,17 @@ class CAR(Platforms):
     chassis_codes={"5G", "AU", "BA", "BE"},
     wmis={WMI.VOLKSWAGEN_MEXICO_CAR, WMI.VOLKSWAGEN_EUROPE_CAR},
   )
+  # TODO: move to a MQBevo platform config
+  VOLKSWAGEN_GOLF_MK8 = VolkswagenMEBPlatformConfig(
+    [
+      VWCarDocs("Volkswagen Golf 2021-25"),
+      VWCarDocs("Volkswagen Golf GTI 2021-25"),
+      VWCarDocs("Volkswagen Golf R 2021-25"),
+    ],
+    VolkswagenCarSpecs(mass=1360, wheelbase=2.64),
+    chassis_codes={"CD"},  # TODO: incomplete
+    wmis={WMI.VOLKSWAGEN_EUROPE_CAR},  # TODO: incomplete
+  )
   VOLKSWAGEN_ID4_MK1 = VolkswagenMEBPlatformConfig(
     [VWCarDocs("Volkswagen ID.4 2021-25", footnotes=[Footnote.VW_MEB])],
     VolkswagenCarSpecs(mass=2099, wheelbase=2.77),

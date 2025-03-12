@@ -349,6 +349,11 @@ FW_VERSIONS = {
       b'\xf1\x875Q0907572S \xf1\x890780',
     ],
   },
+  CAR.VOLKSWAGEN_GOLF_MK8: {
+    (Ecu.fwdRadar, 0x757, None): [
+      b'\xf1\x875WA907572C \xf1\x890461',
+    ],
+  },
   CAR.VOLKSWAGEN_JETTA_MK6: {
     (Ecu.srs, 0x715, None): [
       b'\xf1\x875C0959655M \xf1\x890726\xf1\x82\t00NB1108--------24',
