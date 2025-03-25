@@ -351,6 +351,7 @@ FW_VERSIONS = {
   },
   CAR.VOLKSWAGEN_GOLF_MK8: {
     (Ecu.fwdRadar, 0x757, None): [
+      b'\xf1\x875WA907572B \xf1\x890395',
       b'\xf1\x875WA907572C \xf1\x890461',
     ],
   },
