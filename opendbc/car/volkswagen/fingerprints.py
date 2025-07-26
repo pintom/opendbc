@@ -353,6 +353,8 @@ FW_VERSIONS = {
     (Ecu.fwdRadar, 0x757, None): [
       b'\xf1\x875WA907572B \xf1\x890395',
       b'\xf1\x875WA907572C \xf1\x890461',
+      b'\xf1\x875WA907567  \xf1\x890576',
+
     ],
   },
   CAR.VOLKSWAGEN_JETTA_MK6: {
