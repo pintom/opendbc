@@ -468,7 +468,7 @@ class CAR(Platforms):
     wmis={WMI.SKODA},
   )
   CUPRA_FORMENTOR_MK2 = VolkswagenMQBPlatformConfig(
-    [VWCarDocs("Cupra Formentor 2025")],
+    [VWCarDocs("Škoda Superb 2015-22")],
     VolkswagenCarSpecs(mass=1505, wheelbase=2.64), # TODO: incomplete
     chassis_codes={"CD"},# TODO: incomplete
     wmis={WMI.VOLKSWAGEN_EUROPE_CAR},# TODO: incomplete
