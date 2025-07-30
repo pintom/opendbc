@@ -355,15 +355,15 @@ FW_VERSIONS = {
       b'\xf1\x875WA907572C \xf1\x890461',
       b'\xf1\x875WA907567  \xf1\x890576', #Cupra Formentor
     ],
-    (Ecu.fwdCamera, 0x74F, None): [ #Cupra Formentor
-      b'\xf1\x875WA980653F \xf1\x893602',
-    ],
-    (Ecu.eps, 0x712, None): [ #Cupra Formentor
-      b'\xf1\x873WA907145E \xf1\x891122\xf1\x82\x0001N60801]V',
-    ],
-    (Ecu.srs, 0x715, None): [ #Cupra Formentor
-      b'\xf1\x875QS959655D \xf1\x890126'
-    ],
+    # (Ecu.fwdCamera, 0x74F, None): [ #Cupra Formentor
+    #   b'\xf1\x875WA980653F \xf1\x893602',
+    # ],
+    # (Ecu.eps, 0x712, None): [ #Cupra Formentor
+    #   b'\xf1\x873WA907145E \xf1\x891122\xf1\x82\x0001N60801]V',
+    # ],
+    # (Ecu.srs, 0x715, None): [ #Cupra Formentor
+    #   b'\xf1\x875QS959655D \xf1\x890126'
+    # ],
   },
   CAR.VOLKSWAGEN_JETTA_MK6: {
     (Ecu.srs, 0x715, None): [
