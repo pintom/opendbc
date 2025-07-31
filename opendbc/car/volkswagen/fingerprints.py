@@ -1286,18 +1286,4 @@ FW_VERSIONS = {
       b'\xf1\x875Q0907572S \xf1\x890780',
     ],
   },
-  CAR.CUPRA_FORMENTOR_MK2: {
-    (Ecu.fwdCamera, 0x74F, None): [
-      b'\xf1\x875WA980653F \xf1\x893602',
-    ],
-    (Ecu.fwdRadar, 0x757, None): [
-      b'\xf1\x875WA907567  \xf1\x890576',
-    ],
-    (Ecu.eps, 0x712, None): [
-      b'\xf1\x873WA907145E \xf1\x891122\xf1\x82\x0001N60801]V',
-    ],
-    (Ecu.srs, 0x715, None): [
-      b'\xf1\x875QS959655D \xf1\x890126'
-    ],
-  },
 }

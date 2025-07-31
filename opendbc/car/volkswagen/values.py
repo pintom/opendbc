@@ -467,13 +467,6 @@ class CAR(Platforms):
     chassis_codes={"3V", "NP"},
     wmis={WMI.SKODA},
   )
-  CUPRA_FORMENTOR_MK2 = VolkswagenMQBPlatformConfig(
-    [VWCarDocs("Škoda Superb 2015-22")],
-    VolkswagenCarSpecs(mass=1505, wheelbase=2.64), # TODO: incomplete
-    chassis_codes={"CD"},# TODO: incomplete
-    wmis={WMI.VOLKSWAGEN_EUROPE_CAR},# TODO: incomplete
-  )
-
 
 def match_fw_to_car_fuzzy(live_fw_versions, vin, offline_fw_versions) -> set[str]:
   candidates = set()
